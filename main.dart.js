@@ -55090,29 +55090,31 @@ Y.a01.prototype={
 $1:function(a){return new K.hc(null)},
 $S:53}
 Y.a0g.prototype={
-$0:function(){var t,s,r,q,p=this,o=null,n=p.a
-if(n.r.a.a.length<2)n.cx=!0
-else{t=n.x.a.a
-if(t.length<4&&n.a.d==null)n.cy=!0
-else if(n.f.a.a.length<3)n.db=!0
-else if(n.y==null&&n.dx)M.ev(p.b,!1).hG(N.i7(o,o,o,o,L.at("Selecione ano escolar!",o,o,o,o,o,o),C.b8,o,o,o,o))
-else{s=n.Q
-if(s==null||s.length===0)M.ev(p.b,!1).hG(N.i7(o,o,o,o,L.at("Selecionar o sexo!",o,o,o,o,o,o),C.b8,o,o,o,o))
-else{s=n.z
-if(s==null||s.length===0){s=n.a.d
+$0:function(){var t,s,r,q,p,o,n=this,m=null,l=n.a
+if(l.r.a.a.length<2)l.cx=!0
+else{t=l.x.a.a
+if(t.length<4&&l.a.d==null)l.cy=!0
+else if(l.f.a.a.length<3)l.db=!0
+else if(l.y==null&&l.dx)M.ev(n.b,!1).hG(N.i7(m,m,m,m,L.at("Selecione ano escolar!",m,m,m,m,m,m),C.b8,m,m,m,m))
+else{s=l.Q
+if(s==null||s.length===0)M.ev(n.b,!1).hG(N.i7(m,m,m,m,L.at("Selecionar o sexo!",m,m,m,m,m,m),C.b8,m,m,m,m))
+else{s=l.z
+if(s==null||s.length===0){s=l.a.d
 s=s==null||s.length===0}else s=!1
-if(s)M.ev(p.b,!1).hG(N.i7(o,o,o,o,L.at("Selecionar o tipo de conta!",o,o,o,o,o,o),C.b8,o,o,o,o))
-else if(!Q.acq(t)&&!Q.acp(n.x.a.a)&&n.a.d==null){t=M.ev(p.b,!1)
-s=L.at("Email ou telem\xf3vel inv\xe1lido.",o,o,o,o,o,o)
-t.hG(N.i7(N.adB("Limpar texto",new Y.a0f(n)),o,o,o,s,C.b8,o,o,o,o))}else{if(n.a.d!=null){n.x.sbJ(0,"")
-n.z="S"}n.y=""
-t=n.r.a.a
-s=n.z
-r=n.Q
-q=U.a9F(n.ch.a,o,o,t,r,o,H.b(n.a.d),o,s,"",o)
-if(Q.acq(n.x.a.a))q.y=n.x.a.a
-else if(Q.acp(n.x.a.a))q.x=n.x.a.a
-J.di(R.dk(p.b,u.Y),new X.tr(q))}}}}},
+if(s)M.ev(n.b,!1).hG(N.i7(m,m,m,m,L.at("Selecionar o tipo de conta!",m,m,m,m,m,m),C.b8,m,m,m,m))
+else if(!Q.acq(t)&&!Q.acp(l.x.a.a)&&l.a.d==null){t=M.ev(n.b,!1)
+s=L.at("Email ou telem\xf3vel inv\xe1lido.",m,m,m,m,m,m)
+t.hG(N.i7(N.adB("Limpar texto",new Y.a0f(l)),m,m,m,s,C.b8,m,m,m,m))}else{if(l.a.d!=null){l.x.sbJ(0,"")
+l.z="S"}else l.y=""
+t=l.r.a.a
+s=l.z
+r=l.Q
+q=l.ch.a
+p=l.y
+o=U.a9F(q,m,m,t,r,m,H.b(l.a.d),m,s,p,m)
+if(Q.acq(l.x.a.a))o.y=l.x.a.a
+else if(Q.acp(l.x.a.a))o.x=l.x.a.a
+J.di(R.dk(n.b,u.Y),new X.tr(o))}}}}},
 $S:0}
 Y.a0f.prototype={
 $0:function(){this.a.x.sbJ(0,"")
@@ -55578,7 +55580,7 @@ Bb:function(a,b){var t,s,r,q=this,p=null,o="Montserrat-Regular",n=q.a.d
 n=n!=null?"Conte\xfado "+n+"\xba Ano":"Conte\xfados"
 n=L.at(n,p,p,p,p,A.aY(p,p,C.k,p,p,p,p,p,"Montserrat-Bold",p,p,25,p,p,p,p,!0,p,p,p,p,p,p),p)
 t=q.a.r
-if(t==null)t=""
+if(t==null)t="Convidado"
 t=L.at(t,p,C.aO,p,p,A.aY(p,p,C.aa.h(0,300),p,p,p,p,p,o,p,p,14,p,p,p,p,!0,p,p,p,p,p,p),p)
 s=q.a.e
 if(s==null)s=""
