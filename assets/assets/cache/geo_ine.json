@@ -1,0 +1,122 @@
+{
+  "locations": [
+    {
+        "id": "238901",
+        "nome": "BRAVA",
+        "geog_id": "2389"
+    },
+    {
+        "id": "238706",
+        "nome": "SAO MIGUEL",
+        "geog_id": "2387"
+    },
+    {
+        "id": "238102",
+        "nome": "PAUL",
+        "geog_id": "2381"
+    },
+    {
+        "id": "238103",
+        "nome": "PORTO NOVO",
+        "geog_id": "2381"
+    },
+    {
+        "id": "238801",
+        "nome": "MOSTEIROS",
+        "geog_id": "2388"
+    },
+    {
+        "id": "238802",
+        "nome": "SAO FILIPE",
+        "geog_id": "2388"
+    },
+    {
+        "id": "238301",
+        "nome": "RIBEIRA BRAVA",
+        "geog_id": "2383"
+    },
+    {
+        "id": "238302",
+        "nome": "TARRAFAL SAO NICOLAU",
+        "geog_id": "2383"
+    },
+    {
+        "id": "238101",
+        "nome": "RIBEIRA GRANDE",
+        "geog_id": "2381"
+    },
+    {
+        "id": "238703",
+        "nome": "SANTA CRUZ",
+        "geog_id": "2387"
+    },
+    {
+        "id": "238708",
+        "nome": "SAO LOURENCO ORGAOS",
+        "geog_id": "2387"
+
+    },
+    {
+        "id": "238707",
+        "nome": "SAO SALVADOR MUNDO",
+        "geog_id": "2387"
+
+    },
+    {
+        "id": "238701",
+        "nome": "TARRAFAL",
+        "geog_id": "2387"
+
+    },
+    {
+        "id": "238704",
+        "nome": "PRAIA",
+        "geog_id": "2387"
+
+    },
+    {
+        "id": "238702",
+        "nome": "SANTA CATARINA",
+        "geog_id": "2387"
+
+    },
+    {
+        "id": "238709",
+        "nome": "RIBEIRA GRANDE SANTIAGO",
+        "geog_id": "2387"
+    },
+    {
+        "id": "238705",
+        "nome": "SAO DOMINGOS",
+        "geog_id": "2387"
+
+    },
+    {
+        "id": "238501",
+        "nome": "BOA VISTA",
+        "geog_id": "2385"
+
+    },
+    {
+        "id": "238601",
+        "nome": "MAIO",
+        "geog_id": "2386"
+    },
+  {
+      "id": "238803",
+      "nome": "SANTA CATARINA FOGO",
+      "geog_id": "2388"
+    },
+    {
+      "id": "238201",
+      "nome": "SAO VICENTE",
+      "geog_id": "2382"
+    },
+    {
+      "id": "238401",
+      "nome": "SAL",
+      "geog_id": "2384"
+
+    }
+  ]
+}
