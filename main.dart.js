@@ -55718,7 +55718,7 @@ a0=p
 H.W(a0)
 t=16
 r=[1]
-return P.az(P.cg(new X.h9("Falha de login, utilizador inv\xe1do.")),$async$aF,s)
+return P.az(P.cg(new X.h9("Falha de login, utilizador inv\xe1lido.")),$async$aF,s)
 case 16:t=11
 break
 case 8:t=2
