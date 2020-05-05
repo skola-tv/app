@@ -7451,13 +7451,13 @@ a9W:function(a){if(a==null||a.length===0)return""
 return C.d.I("&user_id=",a)},
 Ps:function(a,b){var t=0,s=P.J(u.tu),r,q,p,o,n
 var $async$Ps=P.E(function(c,d){if(c===1)return P.G(d,s)
-while(true)switch(t){case 0:o=C.d.I("https://skola-tv.herokuapp.com/api/v1/contents/",a)+"?address="
+while(true)switch(t){case 0:o=C.d.I("http://skolatvbackend.cvmovel.cv/api/v1/contents/",a)+"?address="
 n=b.f
 o=C.d.I(o,n)
 q=b.a
 P.jJ(o+T.a9W(q))
 t=3
-return P.R(G.abQ(C.d.I(C.d.I("https://skola-tv.herokuapp.com/api/v1/contents/",a)+"?address=",n)+T.a9W(q),null),$async$Ps)
+return P.R(G.abQ(C.d.I(C.d.I("http://skolatvbackend.cvmovel.cv/api/v1/contents/",a)+"?address=",n)+T.a9W(q),null),$async$Ps)
 case 3:p=d
 if(p.b===200){r=T.acW(C.a5.ja(0,B.NB(U.Ns(p.e).c.a.h(0,"charset")).cZ(0,p.x),null))
 t=1
@@ -7468,7 +7468,7 @@ return P.I($async$Ps,s)},
 Pt:function(a,b){var t=0,s=P.J(u.zQ),r,q
 var $async$Pt=P.E(function(c,d){if(c===1)return P.G(d,s)
 while(true)switch(t){case 0:t=3
-return P.R(G.abQ("https://skola-tv.herokuapp.com/api/v1/contents?school_year="+a+T.a9W(b),null),$async$Pt)
+return P.R(G.abQ("http://skolatvbackend.cvmovel.cv/api/v1/contents?school_year="+a+T.a9W(b),null),$async$Pt)
 case 3:q=d
 if(q.b===200){r=J.hK(C.a5.ja(0,B.NB(U.Ns(q.e).c.a.h(0,"charset")).cZ(0,q.x),null),new T.Pu(),u.tu).bk(0)
 t=1
@@ -7490,7 +7490,7 @@ p.c=a
 p.b=c
 o=C.a5.nL(p.ex(),null)
 t=3
-return P.R(G.NF(C.d.I(C.d.I("https://skola-tv.herokuapp.com/api/v1/contents/",p.a)+"/view?address=",p.e),o,C.d7),$async$Px)
+return P.R(G.NF(C.d.I(C.d.I("http://skolatvbackend.cvmovel.cv/api/v1/contents/",p.a)+"/view?address=",p.e),o,C.d7),$async$Px)
 case 3:if(f.b===200){r="Foi enviado com sucesso!"
 t=1
 break}else throw H.d(P.dD("Failed to set view"))
@@ -7509,7 +7509,7 @@ p.d=c.f
 p.b=b
 o=C.a5.nL(p.ex(),null)
 t=3
-return P.R(G.NF(C.d.I(C.d.I("https://skola-tv.herokuapp.com/api/v1/contents/",p.a)+"/rating?address=",p.d),o,C.d7),$async$Pv)
+return P.R(G.NF(C.d.I(C.d.I("http://skolatvbackend.cvmovel.cv/api/v1/contents/",p.a)+"/rating?address=",p.d),o,C.d7),$async$Pv)
 case 3:n=e
 P.jJ(B.NB(U.Ns(n.e).c.a.h(0,"charset")).cZ(0,n.x))
 if(n.b===200){r="Foi enviado com sucesso!"
@@ -7530,7 +7530,7 @@ p.e=b
 p.c=c.a
 o=C.a5.nL(p.ex(),null)
 t=3
-return P.R(G.NF(C.d.I(C.d.I("https://skola-tv.herokuapp.com/api/v1/contents/",p.a)+"/suggestion?address=",p.b),o,C.d7),$async$Pw)
+return P.R(G.NF(C.d.I(C.d.I("http://skolatvbackend.cvmovel.cv/api/v1/contents/",p.a)+"/suggestion?address=",p.b),o,C.d7),$async$Pw)
 case 3:if(e.b===200){r="Foi enviado com sucesso!"
 t=1
 break}else throw H.d(P.dD("Failed to set suggestion"))
@@ -9916,7 +9916,7 @@ Fl:function(a,b){var t=0,s=P.J(u.ol),r,q,p
 var $async$Fl=P.E(function(c,d){if(c===1)return P.G(d,s)
 while(true)switch(t){case 0:q=C.a5.nL(U.ab6(b),null)
 t=3
-return P.R(G.NF("https://skola-tv.herokuapp.com/api/v1/"+a,q,C.d7),$async$Fl)
+return P.R(G.NF("http://skolatvbackend.cvmovel.cv/api/v1/"+a,q,C.d7),$async$Fl)
 case 3:p=d
 if(p.b===201){r=U.HV(C.a5.ja(0,B.NB(U.Ns(p.e).c.a.h(0,"charset")).cZ(0,p.x),null))
 t=1
@@ -9926,7 +9926,7 @@ return P.I($async$Fl,s)},
 Fm:function(a){var t=0,s=P.J(u.ol),r,q,p
 var $async$Fm=P.E(function(b,c){if(b===1)return P.G(c,s)
 while(true)switch(t){case 0:t=3
-return P.R(G.NF("https://skola-tv.herokuapp.com/api/v1/account/sign_in",'{"username":"'+H.b(a)+'"}',C.d7),$async$Fm)
+return P.R(G.NF("http://skolatvbackend.cvmovel.cv/api/v1/account/sign_in",'{"username":"'+H.b(a)+'"}',C.d7),$async$Fm)
 case 3:q=c
 t=q.b===200?4:6
 break
@@ -9944,7 +9944,7 @@ return P.I($async$Fm,s)},
 VP:function(a){var t=0,s=P.J(u.ip),r,q,p,o
 var $async$VP=P.E(function(b,c){if(b===1)return P.G(c,s)
 while(true)switch(t){case 0:t=3
-return P.R(G.abQ("https://skola-tv.herokuapp.com/api/v1/"+("account/get_child_by_parentId?parent_id="+H.b(a)),C.d7),$async$VP)
+return P.R(G.abQ("http://skolatvbackend.cvmovel.cv/api/v1/"+("account/get_child_by_parentId?parent_id="+H.b(a)),C.d7),$async$VP)
 case 3:p=c
 o=C.an.cZ(0,p.x)
 if(p.b===200){q=J.hK(C.a5.ja(0,o,null),new K.VQ(),u.ol).bk(0)
