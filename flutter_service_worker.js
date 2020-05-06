@@ -1,12 +1,19 @@
 'use strict';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "5f13b71d18020f16eb2c8ea099ea7058",
+  "assets/AssetManifest.json": "f3eb3182fcf638b421cdfeaf1d82ee19",
 "assets/assets/cache/geo_ine.json": "a089b0ea2384c6d942eadf481aeedfa9",
 "assets/assets/fonts/Montserrat-Bold.ttf": "ade91f473255991f410f61857696434b",
 "assets/assets/fonts/Montserrat-Regular.ttf": "ee6539921d713482b8ccd4d0d23961bb",
 "assets/assets/images/logo.jpeg": "04d595e3449014e61a1780b105c12d8a",
 "assets/assets/images/powa_swag.png": "7927e1936bb24f79306eba688a6e6129",
+"assets/assets/images/schoolyear/bg_0.jpeg": "c4e68a7665d1f3a8c6c5a94dc0446828",
+"assets/assets/images/schoolyear/bg_1.jpeg": "53893662e1b02ac8f23ebdbb74aec00c",
+"assets/assets/images/schoolyear/bg_12.jpeg": "483a3711e4a1a91afed6718132a2209c",
+"assets/assets/images/schoolyear/bg_2.jpeg": "b84074ac24176b835b7aecfac036a840",
+"assets/assets/images/schoolyear/bg_3.jpeg": "6dbd58ee9b66899f85fe2c056acb7870",
+"assets/assets/images/schoolyear/bg_4.jpeg": "baece73a58c4547722d0da7155b3d783",
+"assets/assets/images/schoolyear/bg_board.jpeg": "578c9bcf550d84c5a44330d70edae357",
 "assets/FontManifest.json": "1f0bcae4f430ba44305270f9792a3bc5",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
 "assets/LICENSE": "aa4f19ece70af2385a4a27caf75fd348",
@@ -49,7 +56,7 @@ const RESOURCES = {
 "images/icons/icon-96x96.png": "34a28feb40aaa4e320122a19a146e8db",
 "index.html": "07ed632f6a3b3f1caf2eaea59c62b8f2",
 "/": "07ed632f6a3b3f1caf2eaea59c62b8f2",
-"main.dart.js": "45f9634681799dfa0953ca2f1c89d8dd",
+"main.dart.js": "44624cab42af9d0acd83f740c1136816",
 "manifest.json": "06a2eb122a95e7364ccecfcab38bddd7"
 };
 
