@@ -2,6 +2,7 @@
     "name": "SKOLA TV",
     "short_name": "SKOLA TV",
     "start_url": ".",
+    "scope": "/",
     "display": "standalone",
     "background_color": "#004343",
     "theme_color": "#004343",
