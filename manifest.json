@@ -1,26 +1,23 @@
 {
     "name": "SKOLA TV",
     "short_name": "SKOLA TV",
-    "start_url": ".",
-    "display": "standalone",
+    "start_url": "/",
+    "display": "browser",
     "background_color": "#004343",
     "theme_color": "#004343",
     "description": "SKOLA TV APP",
     "orientation": "portrait-primary",
     "lang": "pt-PT",
     "prefer_related_applications": true,
-    "related_applications": [
-        {
-            "platform": "play",
-            "url": "https://play.google.com/store/apps/details?id=com.zingdevelopers.app.skolatvapp",
-            "id": "com.zingdevelopers.app.skolatvapp"
-        }, {
-            "platform": "itunes",
-            "url": "https://apps.apple.com/us/app/comvida/id1508185208?ls=1"
-        }
-    ],
-    "icons": [
-        {
+    "related_applications": [{
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=com.zingdevelopers.app.skolatvapp",
+        "id": "com.zingdevelopers.app.skolatvapp"
+    }, {
+        "platform": "itunes",
+        "url": "https://apps.apple.com/us/app/comvida/id1508185208?ls=1"
+    }],
+    "icons": [{
             "src": "images/icons/icon-72x72.png",
             "sizes": "72x72",
             "type": "image/png"
