@@ -1,8 +1,8 @@
 {
     "name": "SKOLA TV",
     "short_name": "SKOLA TV",
-    "start_url": "/",
-    "display": "browser",
+    "start_url": ".",
+    "display": "standalone",
     "background_color": "#004343",
     "theme_color": "#004343",
     "description": "SKOLA TV APP",
