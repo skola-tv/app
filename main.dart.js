@@ -12383,8 +12383,8 @@ PE:function(a,b,c){var t=null,s=new P.ao(2,2)
 return N.D1(L.al(b.toUpperCase(),t,t,t,t,A.aW(t,t,t,t,C.kW,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),t),t,t,a,new V.W(0,15,0,15),new X.c2(C.v,new K.aP(s,s,s,s)),c)},
 ad1:function(a,b,c,d,e,f,g){var t=null,s=new P.ao(0,0),r=L.ct(C.qk,C.Y,24),q=new P.ao(1,1),p=e?"Preenchimento obrigat\xf3rio!":t,o=new P.ao(2,2)
 return Z.af_(b,L.aak(t,new F.dv(4,new K.aP(s,s,s,s),new Y.cq(C.p,1,C.K)),new V.W(8,8,8,8),t,t,t,t,!0,t,new F.dv(4,new K.aP(o,o,o,o),new Y.cq(C.da,1,C.K)),t,A.aW(t,t,C.da,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),p,c,d,C.iA,t,new F.dv(4,new K.aP(q,q,q,q),new Y.cq(C.M,1,C.K)),t,!0,t,t,t,t,t,"-- Selecione Concelho --",t,t,t,t,t,t,t,t,t,t,t,t,r,t,t,t),!0,1,t,t,new X.PH(a,f,g),!0,C.dB)},
-PI:function(a,b,c,d,e,f,g,h,i,j,k,l,m,a0){var t=null,s=L.al(g,t,t,t,t,A.aW(t,t,f,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),t),r=new P.ao(1,1),q=new P.ao(1,1),p=new P.ao(1,1),o=d?"Preenchimento obrigat\xf3tio!":t,n=new P.ao(1,1)
-return T.c6(H.c([s,new T.aC(t,5,t,t),Z.af_(b,L.aak(t,new F.dv(4,new K.aP(r,r,r,r),new Y.cq(C.p,1,C.K)),new V.W(8,8,8,8),t,t,t,t,!0,new F.dv(4,new K.aP(q,q,q,q),new Y.cq(a,1,C.K)),new F.dv(4,new K.aP(n,n,n,n),new Y.cq(C.da,1,C.K)),t,A.aW(t,t,C.da,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),o,C.k,!0,C.iA,t,new F.dv(4,new K.aP(p,p,p,p),new Y.cq(c,1,C.K)),t,!0,t,t,t,t,t,e,t,t,t,t,t,t,m,t,t,t,t,t,t,t,t,t),h,i,j,k,l,!1,a0)],u.p),C.b_,C.C,C.B)},
+PI:function(a,b,c,d,e,f,g,h,i,j,k,l,m,a0,a1){var t=null,s=L.al(h,t,t,t,t,A.aW(t,t,g,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),t),r=new P.ao(1,1),q=new P.ao(1,1),p=new P.ao(1,1),o=e?c:t,n=new P.ao(1,1)
+return T.c6(H.c([s,new T.aC(t,5,t,t),Z.af_(b,L.aak(t,new F.dv(4,new K.aP(r,r,r,r),new Y.cq(C.p,1,C.K)),new V.W(8,8,8,8),t,t,t,t,!0,new F.dv(4,new K.aP(q,q,q,q),new Y.cq(a,1,C.K)),new F.dv(4,new K.aP(n,n,n,n),new Y.cq(C.da,1,C.K)),t,A.aW(t,t,C.da,t,t,t,t,t,t,t,t,t,t,t,t,t,!0,t,t,t,t,t,t),o,C.k,!0,C.iA,t,new F.dv(4,new K.aP(p,p,p,p),new Y.cq(d,1,C.K)),t,!0,t,t,t,t,t,f,t,t,t,t,t,t,a0,t,t,t,t,t,t,t,t,t),i,j,k,l,m,!1,a1)],u.p),C.b_,C.C,C.B)},
 aa1:function(a,b,c){var t=0,s=P.J(u.z),r,q,p,o,n,m,l,k,j
 var $async$aa1=P.E(function(d,e){if(d===1)return P.G(e,s)
 while(true)switch(t){case 0:m=L.al("C\xf3digo de acesso: "+H.b(c.b),null,null,null,null,null,null)
@@ -56195,27 +56195,27 @@ s.dx=t!=="P"
 s.aK()},
 D:function(a){var t=null,s=u.Z,r=u.qD
 return M.pJ(t,t,E.aaI(M.a3(t,R.o4(X.tg(O.o2(new Y.a17(this),s,r),new Y.a18(),s,r),new Y.a19(),s),t,t,t,t,t,t,t,t,t),new Y.a1a(this)),t,t,!1)},
-OO:function(a){var t,s=this,r=null,q=u.p,p=H.c([],q)
-p.push(X.PI(C.k,s.r,C.k,s.cx,"Seu Nome",C.k,"Nome",!1,1,1,r,new Y.a0V(s),r,C.dB))
-p.push(new T.aC(r,20,r,r))
-t=H.c([],q)
-if(s.a.d==null)t.push(new T.k1(1,C.dX,T.c6(H.c([L.al("Tipo Conta",r,r,r,r,A.aW(r,r,C.k,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),r),new T.aC(r,5,r,r),Z.adk(new Y.a0W(s),s.d)],q),C.b_,C.C,C.B),r))
+OO:function(a){var t,s=this,r=null,q="Preenchimento obrigat\xf3rio!",p=u.p,o=H.c([],p)
+o.push(X.PI(C.k,s.r,q,C.k,s.cx,"Seu Nome",C.k,"Nome",!1,1,1,r,new Y.a0V(s),r,C.dB))
+o.push(new T.aC(r,20,r,r))
+t=H.c([],p)
+if(s.a.d==null)t.push(new T.k1(1,C.dX,T.c6(H.c([L.al("Tipo Conta",r,r,r,r,A.aW(r,r,C.k,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),r),new T.aC(r,5,r,r),Z.adk(new Y.a0W(s),s.d)],p),C.b_,C.C,C.B),r))
 if(s.a.d==null)t.push(new T.aC(20,r,r,r))
-t.push(new T.k1(1,C.dX,T.c6(H.c([L.al("Sexo",r,r,r,r,A.aW(r,r,C.k,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),r),new T.aC(r,5,r,r),Z.adk(new Y.a0X(s),s.e)],q),C.b_,C.C,C.B),r))
-p.push(T.dK(t,C.ac,C.C,C.B))
-if(s.a.d==null)p.push(T.c6(H.c([new T.aC(r,20,r,r),X.PI(C.k,s.x,C.k,s.cy,"exemplo@edu.cv ou 9990000",C.k,"Email ou Telem\xf3vel",!1,1,1,r,new Y.a0Y(s),r,C.dB)],q),C.b_,C.C,C.B))
-p.push(new T.aC(r,20,r,r))
-p.push(L.al("Concelho",r,r,r,r,A.aW(r,r,C.k,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),r))
-p.push(new T.aC(r,5,r,r))
+t.push(new T.k1(1,C.dX,T.c6(H.c([L.al("Sexo",r,r,r,r,A.aW(r,r,C.k,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),r),new T.aC(r,5,r,r),Z.adk(new Y.a0X(s),s.e)],p),C.b_,C.C,C.B),r))
+o.push(T.dK(t,C.ac,C.C,C.B))
+if(s.a.d==null)o.push(T.c6(H.c([new T.aC(r,20,r,r),X.PI(C.k,s.x,q,C.k,s.cy,"exemplo@edu.cv ou 9990000",C.k,"Email ou Telem\xf3vel",!1,1,1,r,new Y.a0Y(s),r,C.dB)],p),C.b_,C.C,C.B))
+o.push(new T.aC(r,20,r,r))
+o.push(L.al("Concelho",r,r,r,r,A.aW(r,r,C.k,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),r))
+o.push(new T.aC(r,5,r,r))
 t=s.ch
-p.push(X.ad1(a,s.f,C.k,!0,s.db,t,new Y.a0Z(s)))
-p.push(new T.aC(r,20,r,r))
-if(s.dx||s.a.d!=null)p.push(T.c6(H.c([L.al("Ano Escolar",r,r,r,r,A.aW(r,r,C.k,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),r),new T.aC(r,5,r,r),T.dK(H.c([new L.qt(new Y.a1_(s),r)],q),C.ac,C.C,C.B),new T.aC(r,25,r,r)],q),C.b_,C.C,C.B))
-p.push(X.PF(new Y.a10(s,a),"Registar"))
-p.push(new T.aC(r,20,r,r))
-q=s.a.d
-p.push(L.ab5(X.PE(new Y.a11(a),"Agora N\xe3o",C.k),q!=null))
-return E.pZ(new T.b9(C.u,r,r,M.a3(r,T.c6(p,C.ao,C.C,C.B),r,new S.ac(0,700,0,1/0),r,r,r,r,new V.W(16,0,16,16),r,r),r),C.o)},
+o.push(X.ad1(a,s.f,C.k,!0,s.db,t,new Y.a0Z(s)))
+o.push(new T.aC(r,20,r,r))
+if(s.dx||s.a.d!=null)o.push(T.c6(H.c([L.al("Ano Escolar",r,r,r,r,A.aW(r,r,C.k,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r),r),new T.aC(r,5,r,r),T.dK(H.c([new L.qt(new Y.a1_(s),r)],p),C.ac,C.C,C.B),new T.aC(r,25,r,r)],p),C.b_,C.C,C.B))
+o.push(X.PF(new Y.a10(s,a),"Registar"))
+o.push(new T.aC(r,20,r,r))
+p=s.a.d
+o.push(L.ab5(X.PE(new Y.a11(a),"Agora N\xe3o",C.k),p!=null))
+return E.pZ(new T.b9(C.u,r,r,M.a3(r,T.c6(o,C.ao,C.C,C.B),r,new S.ac(0,700,0,1/0),r,r,r,r,new V.W(16,0,16,16),r,r),r),C.o)},
 WY:function(a){this.N(new Y.a13(this,a))}}
 Y.a1b.prototype={
 $1:function(a){return new Z.ei(a.a,a.b)},
@@ -56349,7 +56349,7 @@ t=E.aaI(R.o4(Q.wF(!0,X.tg(O.o2(new K.a3u(this),t,s),new K.a3v(this),t,s),C.ah,!0
 s=this.f
 return M.pJ(null,null,t,L.ab5(new T.bx(new V.W(16,16,16,16),X.Cb(new K.a3y(a),"Registar",C.k),null),s),!0,!1)},
 CK:function(a){var t=this,s=null,r=new P.ao(10,10),q=new P.ao(20,20),p=u.p
-return new T.b9(C.u,s,s,E.pZ(M.a3(s,T.c6(H.c([V.acR(new T.bx(new V.W(16,16,16,16),T.c6(H.c([T.C0(new K.aP(q,q,q,q),U.Ds(s,64,new L.hN("assets/images/logo.jpeg"),222)),new T.aC(s,24,s,s),new T.aC(s,10,s,s),X.PI(C.f8,t.d,C.M,t.e,"Email, Telem\xf3vel ou C\xf3digo",s,"Fa\xe7a o seu login aqui:",!1,1,1,new K.a3m(t,a),new K.a3n(t),L.ct(C.yk,s,24),C.oe),new T.aC(s,20,s,s),X.aa0(new K.a3o(t,a),"Entrar")],p),C.ao,C.bl,C.c_),s),s,new X.c2(C.v,new K.aP(r,r,r,r))),new T.aC(s,16,s,s),D.bY(s,T.dK(H.c([L.al("Oferecido pela Powa Swag",s,s,s,s,A.aW(s,s,C.a7.h(0,400),s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),new T.aC(5,s,s,s),U.Ds(s,20,new L.hN("assets/images/powa_swag.png"),s)],p),C.ac,C.bl,C.B),C.x,!1,s,s,s,s,s,s,s,s,s,s,s,s,new K.a3p(),s,s,s,s,s,s)],p),C.ac,C.C,C.B),s,new S.ac(0,500,0,1/0),s,s,s,s,new V.W(16,16,16,16),s,s),C.o),s)},
+return new T.b9(C.u,s,s,E.pZ(M.a3(s,T.c6(H.c([V.acR(new T.bx(new V.W(16,16,16,16),T.c6(H.c([T.C0(new K.aP(q,q,q,q),U.Ds(s,64,new L.hN("assets/images/logo.jpeg"),222)),new T.aC(s,24,s,s),new T.aC(s,10,s,s),X.PI(C.f8,t.d,"Preenchimento obrigat\xf3rio!",C.M,t.e,"Email, Telem\xf3vel ou C\xf3digo",s,"Fa\xe7a o seu login aqui:",!1,1,1,new K.a3m(t,a),new K.a3n(t),L.ct(C.yk,s,24),C.oe),new T.aC(s,20,s,s),X.aa0(new K.a3o(t,a),"Entrar")],p),C.ao,C.bl,C.c_),s),s,new X.c2(C.v,new K.aP(r,r,r,r))),new T.aC(s,16,s,s),D.bY(s,T.dK(H.c([L.al("Oferecido pela Powa Swag",s,s,s,s,A.aW(s,s,C.a7.h(0,400),s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),new T.aC(5,s,s,s),U.Ds(s,20,new L.hN("assets/images/powa_swag.png"),s)],p),C.ac,C.bl,C.B),C.x,!1,s,s,s,s,s,s,s,s,s,s,s,s,new K.a3p(),s,s,s,s,s,s)],p),C.ac,C.C,C.B),s,new S.ac(0,500,0,1/0),s,s,s,s,new V.W(16,16,16,16),s,s),C.o),s)},
 Dx:function(a){this.N(new K.a3q(this,a))}}
 K.a3x.prototype={
 $2:function(a,b){var t=null
@@ -57096,7 +57096,7 @@ K.Md.prototype={
 D:function(a){var t=null,s=u.i0,r=u.km
 return M.a3(t,R.o4(X.tg(O.o2(new K.a6D(this),s,r),new K.a6E(this),s,r),new K.a6F(),s),t,t,t,t,t,t,t,t,t)},
 YE:function(a){var t=this,s=null
-return T.c6(H.c([X.PI(C.f8,t.d,C.f8,t.f,"Deixe nos uma sugest\xe3o, por favor...",s,"Sugest\xe3o",!0,8,8,s,new K.a6A(t),s,C.dB),new T.aC(s,20,s,s),X.aa0(new K.a6B(t,a),"Enviar Sugest\xe3o"),new T.aC(s,20,s,s)],u.p),C.ao,C.C,C.B)}}
+return T.c6(H.c([X.PI(C.f8,t.d,"Preenchimento obrigat\xf3rio! Dever\xe1 conter o m\xednimo de 9 carateres.",C.f8,t.f,"Deixe nos uma sugest\xe3o, por favor...",s,"Sugest\xe3o",!0,8,8,s,new K.a6A(t),s,C.dB),new T.aC(s,20,s,s),X.aa0(new K.a6B(t,a),"Enviar Sugest\xe3o"),new T.aC(s,20,s,s)],u.p),C.ao,C.C,C.B)}}
 K.a6F.prototype={
 $1:function(a){var t=u.wv,s=new P.f5(null,null,t)
 t=new O.n6(new S.j6(s,new P.d6(s,t.i("d6<1>")),u.eK))
